@@ -1,4 +1,7 @@
-
+## Brard Raphaël
+## Durand-Perdriel Flavie
+## M'rabet Youssef
+## Monceau Gaël
 
 library(MASS)
 
@@ -48,7 +51,7 @@ update_rho = dim(y)[1]+2
 
 
 
-# Cr�ation de la fonction Birats :
+# Création de la fonction Birats :
 
 birats = function(nchain,data,priors){
   init = c(1,0,0)
@@ -119,7 +122,7 @@ chain = chain[-(1:1000),]
 
 
 
-# Cr�ation des graphiques 
+# Création des graphiques 
 
 par(mfrow=c(1,3))
 para = c("tau","mu_beta1","mu_beta2")
